@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <button id="a">get...... data</button>
+    <br>
+    <div id="t">
+
+    </div>
+    <br><br>
+    <div id="det">
+        <p id="x">address print</p>
+
+    </div>
+
+</body>
+<script src="script.js">
+
+    // let x = document.getElementById("a");
+    // function res(position) {
+    //     let lat = position.coords.latitude;
+    //     let lng = position.coords.longitude;
+    //     let n = document.getElementById("t");
+    //     n.innerText = `lat: ${lat} long:${lng}`;
+    //     console.log(lat);
+    //     console.log(lng);
+    //     async function () {
+
+    //     }
+    // console.log("Speed:", position.coords.speed);
+    // console.log("Heading:", position.coords.heading);
+    // console.log("Accuracy:", position.coords.accuracy);
+
+
+    // }
+    // function rej(error) {
+    //     console.log(error);
+    //     console.log(error.code);
+    //     console.log(error.message);
+
+    // }
+    // let x = document.getElementById("a");
+    // x.addEventListener(
+    //     "click",
+    //     () => {
+    //         navigator.geolocation.getCurrentPosition(
+    //             (position) => {
+
+
+
+    //                 let lat = position.coords.latitude;
+    //                 let lng = position.coords.longitude;
+    //                 let s = position.coords.accuracy;
+    //                 let k = position.coords.speed;
+    //                 let y = position.coords.heading;
+    //                 let n = document.getElementById("t");
+    //                 n.innerHTML = `lat: ${lat} <br> long:${lng}  <br> acuuracy:${s} <br> speed:${k} <br> direction:${y}`;
+
+    //                 async function getAddress(l, n) {
+
+    //                     let response = await fetch(
+    //                         `https://nominatim.openstreetmap.org/reverse?format=json&lat=${l}&lon=${n}`
+    //                     );
+
+    //                     let data = await response.json();
+    //                     let c = document.getElementById("det");
+    //                     c.innerHTML = `<br> ${data.display_name} <br>`;
+
+    //                     // console.log(data);
+
+
+    //                 }
+    //                 getAddress(lat, lng);
+
+    //             },
+
+    //             () => {
+    //                 let n = document.getElementById("t");
+    //                 n.innerText = "please allow location or check internet conection";
+    //             }
+
+    //         );
+    //         // navigator.geolocation.watchPosition(res, rej);
+    //     }
+
+    // );
+
+</script>
+
+</html>
